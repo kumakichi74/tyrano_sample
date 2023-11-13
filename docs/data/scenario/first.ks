@@ -1,46 +1,43 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="有機化合物ゲーム"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「フェノールか安息香酸か」[l][r]
 
-メロスは激怒した。[l][r]
+こんにちは。[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+これからあなたにはフェノールと安息香酸どちらかを選んでもらいます。[l][r]
 
-(中略)[l][r]
+弱酸と超弱酸、どちらが好きですか？[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
-
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_sleep] →弱酸 [endlink][r]
+[link target=*tag_run] →超弱酸 [endlink][r]
 [s]
 
 *tag_sleep
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+[bg storage=an1.jpg time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+あなたと相性の良い有機化合物は安息香酸です[l][r]
+お幸せに[r]
 
-【 BAD END 】[l][cm]
+【 安息香酸 END 】[l][cm]
 
 [jump target=*start]
 
 *tag_run
 
-[bg storage=run.jpg time=500]
+[bg storage=fe1.jpg time=500]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+あなたと相性の良い有機化合物はフェノールです。[l][r]
+お幸せに。[r]
 
-【 GOOD END 】[l][cm]
+【 フェノール END 】[l][cm]
 
 [jump target=*start]
